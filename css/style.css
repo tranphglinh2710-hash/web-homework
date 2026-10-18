@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+h1, nav ul {
+    text-align: center;
+    justify-content: center;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+header, footer {
+    background-color: #1a5276;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2874a6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;    /* tự động xuống dòng khi không đủ chỗ */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;   /* bỏ đường trang trí chư */
+    padding: 12px 20px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #1a5276;
+}
+
+.page-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 3;
+    min-width: 280px;
+    padding: 25px;
+}
+
+main h2, aside h3, .form-group label {
+    color: #1a5276;
+}
+
+main h2 {
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 8px;
+}
+
+main p, main ul {
+    margin-bottom: 15px;
+}
+
+aside {
+    flex: 1;
+    min-width: 200px;
+    padding: 25px;
+    background-color: #f0f4f8;
+}
+
+aside hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.card, .event-card, .contact-info, .contact-form, .gallery-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card, .gallery-item, .contact-form, .contact-info {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.event-card {
+    border-left: 4px solid #2874a6;
+}
+
+.event-date {
+    color: #2874a6;
+    font-weight: bold;
+}
+
+.event-location {
+    color: #666;
+    font-style: italic;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-item {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a5276;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2874a6;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: #fff3cd;
+}
+
+.center-text {
+    text-align: center;
+}
