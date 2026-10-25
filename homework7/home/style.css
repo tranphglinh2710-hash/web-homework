@@ -1,0 +1,112 @@
+
+h1, h2, h3, {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+body, p, li, a {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+header {
+    background: linear-gradient(135deg, #1a5276 0%, #2874a6 50%, #3498db 100%);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 20px;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+.card {
+    background-color: #f8f9fa;
+    border-left: 5px solid #3498db;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-left-color: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border-left-color: #1a5276;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #3498db;
+    box-shadow: inset 0 -3px 0 #ffcc00;
+}
+.welcome-banner {
+    background: linear-gradient(135deg, #2874a6 0%, #1a5276 50%, #0d3b5e 100%);
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.welcome-banner h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-banner p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(to right, #2874a6, #3498db);
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1a5276, #2874a6);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-large {
+    font-size: 18px;
+    padding: 15px 40px;
+}
